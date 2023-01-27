@@ -41,6 +41,7 @@ if __name__ == "__main__":
     tree = postorder_exemple_tree()
     print("Percurso em pós ordem:")
     tree.postorder_traversal()
+    print("Altura:", tree.height())
 
 
 
