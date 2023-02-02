@@ -1,5 +1,5 @@
 import random 
-from sort import select_sort
+from sort import select_sort, dubble_sort
 
 any_numbers = random.sample(range(1,1000), 42)
 
@@ -13,5 +13,5 @@ if __name__ == "__main__":
     lista = repeated
     print(lista)
     print("\n Ordenado:")
-    select_sort(lista)
+    dubble_sort(lista)
     print(lista)
