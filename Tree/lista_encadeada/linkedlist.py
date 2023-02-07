@@ -16,6 +16,7 @@ class LinkedList:
         else:
             #primeira inserção
             self.head = Node(elem)
+        self.size = self.size + 1
         
 
 
