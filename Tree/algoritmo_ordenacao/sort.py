@@ -5,7 +5,7 @@ def merge_sort(lista, inicio=0, fim=None):
         meio = (fim + inicio) // 2
         merge_sort(lista, inicio, meio)
         merge_sort(lista, meio, fim)
-        fim(lista, inicio, meio, fim)
+        merge(lista, inicio, meio, fim)
 
 def merge(lista, inicio, meio, fim):
     left = lista[inicio:meio]
